@@ -174,12 +174,12 @@ pychain = setup()
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-input_sender_id=st.text_input("Sender_ID")
+input_sender_id=st.text_input("Sender ID")
     
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-input_receiver_id=st.text_input("Receiver_Id")
+input_receiver_id=st.text_input("Receiver Id")
 
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
@@ -198,9 +198,9 @@ if st.button('Add Block'):
                 sender=input_sender_id,
                 receiver=input_receiver_id,
                 amount=input_amount),
-        # creator_id=42,
-        prev_hash=prev_block_hash
-    )
+            creator_id=42,
+            prev_hash=prev_block_hash    
+            )
 
     pychain.add_block(new_block)
     st.balloons()
