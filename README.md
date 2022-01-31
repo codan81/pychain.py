@@ -32,7 +32,7 @@ $ pip install streamlit
 
 ```
 
-![pychain](images/dependencies.jpg)
+![pychain](https://github.com/codan81/pychain.py/blob/main/images%20/dependencies.jpg)
 
 
 ```
