@@ -1,7 +1,7 @@
 # pychain.py
 
 
-![pychain](images/blockchain_image.jpg)
+![pychain](https://github.com/codan81/pychain.py/blob/main/images%20/blockchain_image.jpg)
 
 
 
@@ -35,24 +35,25 @@ $ pip install streamlit
 ![pychain](https://github.com/codan81/pychain.py/blob/main/images%20/dependencies.jpg)
 
 
-```
-
 ---
 ## Usage
 
 This is a basic Blockchain setup with one node for vallidation, with a user friendly app to interact with the network via Stremlit. user will be sender_id, receiver_id and amount also they will be able to adjust the block dificulty with in the proof of work protocol  as a validation of the block hash.
 
-![pychain](images/pychain.jpg)
+![pychain](https://github.com/codan81/pychain.py/blob/main/images%20/pychain.jpg)
 
 
 data frame with all the blocks added to the chain. 
 
-![to_the_moon](images/pychain2.jpg)
+![pychain](https://github.com/codan81/pychain.py/blob/main/images%20/pychain2.jpg)
 
+Video of the app.
+
+[pychain](https://www.youtube.com/watch?v=_htf91Q39qw)
 
 ---
 ## Contributors
-This code was created in 2022 for a project at (Education Services at UCB). 
+
 
 Israel Fernandez -- codan81@gmail.com
 
